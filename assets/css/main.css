@@ -1,0 +1,29 @@
+body {
+  background: url("http://res.cloudinary.com/dbsxgncvx/image/upload/v1481613813/cool-wallpapers-for-kids-high-definition-desktop-background-images-free_9q2bcvQ_yj6dwg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.keys {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin: 25% 10%;
+}
+
+.key {
+  box-shadow: 0 4px 4px lightgrey;
+  background-color: rgba(86, 54, 165, 0.8);
+  padding: 20px 30px;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.letter {
+  font-size: 30px;
+}
+
+.playing {
+  box-shadow: 0 8px 8px white;
+}
