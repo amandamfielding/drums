@@ -3,7 +3,6 @@ function playSound(e) {
   const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
   if (!audio) return;
   audio.currentTime = 0;
-  debugger
   audio.play();
   key.classList.add('playing');
 }
