@@ -18,6 +18,7 @@ body {
   color: white;
   text-align: center;
   border-radius: 5px;
+  transition:all 0.08s;
 }
 
 .letter {
@@ -26,4 +27,5 @@ body {
 
 .playing {
   box-shadow: 0 8px 8px white;
+  transform: scale(1.3);
 }
